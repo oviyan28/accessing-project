@@ -11,7 +11,7 @@
 <body>
 
 <c:url value="/cart/createorder/${cartId }" var="url"></c:url>
-<form:form action="${url }" modelAttribute="shippingaddress">
+<form:form action="${url}" modelAttribute="shippingaddress">
 
 <div class="boxed" style="border:1px solid">
 Enter Shipping Address
