@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
-import org.apache.catalina.User;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
@@ -19,10 +19,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.oviya.model.Cart;
 import com.oviya.model.CartItem;
 import com.oviya.model.Customer;
+import com.oviya.model.CustomerOrder;
 import com.oviya.model.Product;
+import com.oviya.model.ShippingAddress;
+import com.oviya.model.User;
 import com.oviya.services.CartItemService;
 import com.oviya.services.CustomerService;
 import com.oviya.services.ProductService;
+
 
 
 
@@ -52,7 +56,7 @@ import com.oviya.services.ProductService;
 					return "redirect:/cart/getcart";
 				}
 			}
-			
+		
 
 		
 			

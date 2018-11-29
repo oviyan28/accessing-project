@@ -26,7 +26,7 @@
        
        <!--  to scan all the classes annotated with @Controller, @Service, @Repository, @Autowired -->
        <!--  similar @Component-scan(basePackages="com.niit" -->
-       <context:component-scan base-package="com.sports"></context:component-scan>
+       <context:component-scan base-package="com"></context:component-scan>
        
        <!--  to convert logical view name to actual view name -->
        <!-- logical view name is 'home' -->
